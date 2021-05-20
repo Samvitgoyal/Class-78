@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title> Class-78 </title>
+</head>
+<body>
+<h1> Array is made of: </h1>
+ <p id="name_array"></p>
+
+ <br>
+ <hr>
+ <h1>Show the second value: </h1>
+<p id="second_position"></p>
+ <script>
+
+     var cricketers = ["VIRAT", "DHONI" , "Rahul" ];
+     console.log(cricketers);
+     document.getElementById("name_array").innerHTML=cricketers;
+
+     document.getElementById("second_position").innerHTML=cricketers[1];
+
+     var length_of_array = cricketers.length;
+     console.log(length_of_array);
+
+     for(var i= 0; i<length_of_array; i++){
+        console.log(cricketers[i]);
+     }
+cricketers.push("Rohit sharma") ;
+console.log(cricketers);
+ </script>
+</body>
+
+</html>
